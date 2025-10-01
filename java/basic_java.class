@@ -1,0 +1,21 @@
+// Source code is decompiled from a .class file using FernFlower decompiler (from Intellij IDEA).
+import java.util.Scanner;
+
+public class basic_java {
+   public basic_java() {
+   }
+
+   public static void main(String[] var0) {
+      Scanner var1 = new Scanner(System.in);
+      String var2 = var1.next();
+      System.out.println(true);
+      if (var2.equals("Mango")) {
+         System.out.println("King of fruit.");
+      }
+
+      if (var2.equals("apple")) {
+         System.out.println("A red fruit.");
+      }
+
+   }
+}
